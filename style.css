@@ -377,7 +377,28 @@ body{
 
     box-shadow:0 5px 20px rgba(0,0,0,.3);
 }
+/*button color*/
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
 
+    background-color: #0f3460; /* Dark Blue */
+    color: white;              /* White Text */
+
+    border: 2px solid #0a2342;
+    border-radius: 8px;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #081b33; /* Darker on hover */
+    color: white;
+}
 /* ANIMATION */
 @keyframes fadeUp{
 
